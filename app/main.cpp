@@ -1,9 +1,28 @@
-// If you really want to make a program for the app, be my guest.
-// You may prefer to do so in /exp instead.
-// Or better yet, use gtest to automate your own test cases!
+#include "proj1.hpp"
 
 int main()
 {
+	std::string w1, w2, w3;
+	std::map<char, unsigned> mapping;
+
+	std::cout << "Please enter your first word: ";
+	std::cin >> w1;
+	std::cout << "Please enter your second word: ";
+	std::cin >> w2;
+	std::cout << "Please enter your third word: ";
+	std::cin >> w3;
+
+	if (puzzleSolver(w1, w2, w3, mapping))
+	{
+		for(auto it = mapping.begin(); it != mapping.end(); it++)
+		{
+			std::cout << it->first << " : " << it->second << std::endl;
+		}
+	}
+	else
+	{
+		std::cout << "No solution";
+	}
 
     return 0;
 }

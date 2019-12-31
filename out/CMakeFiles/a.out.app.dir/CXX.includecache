@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/ics46b/projects/proj1/app/main.cpp
+proj1.hpp
+/home/ics46b/projects/proj1/app/proj1.hpp
 
 /home/ics46b/projects/proj1/app/proj1.cpp
 proj1.hpp
@@ -20,5 +22,7 @@ set
 list
 -
 string
+-
+iostream
 -
 
