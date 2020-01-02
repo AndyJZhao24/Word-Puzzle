@@ -105,42 +105,42 @@ CMakeFiles/a.out.gtest.dir/gtest/test1.cpp.o.provides: CMakeFiles/a.out.gtest.di
 CMakeFiles/a.out.gtest.dir/gtest/test1.cpp.o.provides.build: CMakeFiles/a.out.gtest.dir/gtest/test1.cpp.o
 
 
-CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o: CMakeFiles/a.out.gtest.dir/flags.make
-CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o: ../app/proj1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics46b/projects/proj1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o -c /home/ics46b/projects/proj1/app/proj1.cpp
+CMakeFiles/a.out.gtest.dir/app/solver.cpp.o: CMakeFiles/a.out.gtest.dir/flags.make
+CMakeFiles/a.out.gtest.dir/app/solver.cpp.o: ../app/solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics46b/projects/proj1/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a.out.gtest.dir/app/solver.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.gtest.dir/app/solver.cpp.o -c /home/ics46b/projects/proj1/app/solver.cpp
 
-CMakeFiles/a.out.gtest.dir/app/proj1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.gtest.dir/app/proj1.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics46b/projects/proj1/app/proj1.cpp > CMakeFiles/a.out.gtest.dir/app/proj1.cpp.i
+CMakeFiles/a.out.gtest.dir/app/solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.gtest.dir/app/solver.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics46b/projects/proj1/app/solver.cpp > CMakeFiles/a.out.gtest.dir/app/solver.cpp.i
 
-CMakeFiles/a.out.gtest.dir/app/proj1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.gtest.dir/app/proj1.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics46b/projects/proj1/app/proj1.cpp -o CMakeFiles/a.out.gtest.dir/app/proj1.cpp.s
+CMakeFiles/a.out.gtest.dir/app/solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.gtest.dir/app/solver.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics46b/projects/proj1/app/solver.cpp -o CMakeFiles/a.out.gtest.dir/app/solver.cpp.s
 
-CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o.requires:
+CMakeFiles/a.out.gtest.dir/app/solver.cpp.o.requires:
 
-.PHONY : CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o.requires
+.PHONY : CMakeFiles/a.out.gtest.dir/app/solver.cpp.o.requires
 
-CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o.provides: CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o.requires
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o.provides.build
-.PHONY : CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o.provides
+CMakeFiles/a.out.gtest.dir/app/solver.cpp.o.provides: CMakeFiles/a.out.gtest.dir/app/solver.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/solver.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.gtest.dir/app/solver.cpp.o.provides
 
-CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o.provides.build: CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o
+CMakeFiles/a.out.gtest.dir/app/solver.cpp.o.provides.build: CMakeFiles/a.out.gtest.dir/app/solver.cpp.o
 
 
 # Object files for target a.out.gtest
 a_out_gtest_OBJECTS = \
 "CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o" \
 "CMakeFiles/a.out.gtest.dir/gtest/test1.cpp.o" \
-"CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o"
+"CMakeFiles/a.out.gtest.dir/app/solver.cpp.o"
 
 # External object files for target a.out.gtest
 a_out_gtest_EXTERNAL_OBJECTS =
 
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/gtest/test1.cpp.o
-bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o
+bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/solver.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/build.make
 bin/a.out.gtest: ../lib/libverifier.so
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/link.txt
@@ -154,7 +154,7 @@ CMakeFiles/a.out.gtest.dir/build: bin/a.out.gtest
 
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o.requires
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/gtest/test1.cpp.o.requires
-CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o.requires
+CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/solver.cpp.o.requires
 
 .PHONY : CMakeFiles/a.out.gtest.dir/requires
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ics46b/projects/proj1/app/proj1.cpp" "/home/ics46b/projects/proj1/out/CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o"
+  "/home/ics46b/projects/proj1/app/solver.cpp" "/home/ics46b/projects/proj1/out/CMakeFiles/a.out.gtest.dir/app/solver.cpp.o"
   "/home/ics46b/projects/proj1/gtest/gtestmain.cpp" "/home/ics46b/projects/proj1/out/CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o"
   "/home/ics46b/projects/proj1/gtest/test1.cpp" "/home/ics46b/projects/proj1/out/CMakeFiles/a.out.gtest.dir/gtest/test1.cpp.o"
   )

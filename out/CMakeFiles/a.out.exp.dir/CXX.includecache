@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ics46b/projects/proj1/app/proj1.cpp
-proj1.hpp
-/home/ics46b/projects/proj1/app/proj1.hpp
+/home/ics46b/projects/proj1/app/solver.cpp
+solver.hpp
+/home/ics46b/projects/proj1/app/solver.hpp
 
-/home/ics46b/projects/proj1/app/proj1.hpp
+/home/ics46b/projects/proj1/app/solver.hpp
 map
 -
 set

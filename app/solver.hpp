@@ -1,5 +1,5 @@
-#ifndef __PROJ_1__HPP
-#define __PROJ_1__HPP
+#ifndef __SOLVER__HPP
+#define __SOLVER__HPP
 
 #include <map>
 #include <set>

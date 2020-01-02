@@ -176,38 +176,38 @@ app/main.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
 
-app/proj1.o: app/proj1.cpp.o
+app/solver.o: app/solver.cpp.o
 
-.PHONY : app/proj1.o
+.PHONY : app/solver.o
 
 # target to build an object file
-app/proj1.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj1.cpp.o
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj1.cpp.o
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj1.cpp.o
-.PHONY : app/proj1.cpp.o
+app/solver.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/solver.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/solver.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/solver.cpp.o
+.PHONY : app/solver.cpp.o
 
-app/proj1.i: app/proj1.cpp.i
+app/solver.i: app/solver.cpp.i
 
-.PHONY : app/proj1.i
+.PHONY : app/solver.i
 
 # target to preprocess a source file
-app/proj1.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj1.cpp.i
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj1.cpp.i
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj1.cpp.i
-.PHONY : app/proj1.cpp.i
+app/solver.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/solver.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/solver.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/solver.cpp.i
+.PHONY : app/solver.cpp.i
 
-app/proj1.s: app/proj1.cpp.s
+app/solver.s: app/solver.cpp.s
 
-.PHONY : app/proj1.s
+.PHONY : app/solver.s
 
 # target to generate assembly for a file
-app/proj1.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj1.cpp.s
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj1.cpp.s
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj1.cpp.s
-.PHONY : app/proj1.cpp.s
+app/solver.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/solver.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/solver.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/solver.cpp.s
+.PHONY : app/solver.cpp.s
 
 exp/expmain.o: exp/expmain.cpp.o
 
@@ -304,9 +304,9 @@ help:
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
-	@echo "... app/proj1.o"
-	@echo "... app/proj1.i"
-	@echo "... app/proj1.s"
+	@echo "... app/solver.o"
+	@echo "... app/solver.i"
+	@echo "... app/solver.s"
 	@echo "... exp/expmain.o"
 	@echo "... exp/expmain.i"
 	@echo "... exp/expmain.s"

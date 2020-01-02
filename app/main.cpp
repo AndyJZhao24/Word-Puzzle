@@ -1,4 +1,4 @@
-#include "proj1.hpp"
+#include "solver.hpp"
 
 int main()
 {
